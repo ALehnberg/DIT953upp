@@ -7,12 +7,17 @@ public class DrawPolygons extends Component{
     private ArrayList<Point>  centerPoints;
 
     public DrawPolygons(){
+
+
         polygonNames = new ArrayList<>(10);
         centerPoints = new ArrayList<>(10);
 
+        //yes
         polygonNames.add("square");
         polygonNames.add("triangle");
         polygonNames.add("rectangle");
+
+        //hellllooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
 
         centerPoints.add(new Point(100,100));
         centerPoints.add(new Point(150,150));
